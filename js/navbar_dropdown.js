@@ -1,6 +1,6 @@
 $("#nav_services").mouseenter(function(){
     var dropData = 
-    '<section class="drop">'+
+    '<section class="drop noselect">'+
         '<p class="title">SERVICES</p><br>'+
         '<main class="list">'+
         '<ul class="dropdown-list">'+

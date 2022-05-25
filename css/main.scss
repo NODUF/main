@@ -40,6 +40,7 @@
 
 body{
     background-color: #000;
+    overflow-x: hidden;
 }
 
 .container{
@@ -104,6 +105,7 @@ body{
     }
 }
 
+//NAVBAR
 #navbar{
     color: var(--knockoutColor);
     padding: 2em;
@@ -197,6 +199,27 @@ body{
     visibility: visible;
 }
 
+//LANDING PAGE
+#landing_page{
+    .hero{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.2;
+        z-index: -1;
+    }
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
 
 @keyframes load_fadeIn {
     from{
@@ -205,6 +228,18 @@ body{
 
     to{
         opacity: 1;
+    }
+}
+
+
+//MOBILE
+@media (orientation: portrait) {
+    #navbar{
+        display: none;
+    }
+
+    .container{
+        padding: 0em 2em;
     }
 }
 
