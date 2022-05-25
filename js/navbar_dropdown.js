@@ -4,12 +4,12 @@ $("#nav_services").mouseenter(function(){
         '<p class="title">SERVICES</p><br>'+
         '<main class="list">'+
         '<ul class="dropdown-list">'+
-            '<li><img class="icon" src="../img/icons/3D_square.png"> </img><a href="#" class="title">3D Graphics<span class="arrow"></span><br><p class="text">Models, Animations...</p></a></li>'+
-            '<li><img class="icon" src="../img/icons/2D_square.png"> </img><a href="#" class="title">2D Graphics<span class="arrow"></span><br><p class="text">Logos, Banners...</p></a></li>'+
+            '<li><img class="icon" src="/img/icons/3D_square.png"> </img><a href="#" class="title">3D Graphics<span class="arrow"></span><br><p class="text">Models, Animations...</p></a></li>'+
+            '<li><img class="icon" src="/img/icons/2D_square.png"> </img><a href="#" class="title">2D Graphics<span class="arrow"></span><br><p class="text">Logos, Banners...</p></a></li>'+
         '</ul>'+
         '<ul class="dropdown-list">'+
-            '<li><img class="icon" src="../img/icons/video_editing.png"> </img><a href="#" class="title">Video Editing<span class="arrow"></span><br><p class="text">Commercial, Motion Graphics...</p></a></li>'+
-            '<li><img class="icon" src="../img/icons/code.png"> </img><a href="#" class="title">Coding<span class="arrow"></span><br><p class="text">HTML, CSS, JS...</p></a></li>'+
+            '<li><img class="icon" src="/img/icons/video_editing.png"> </img><a href="#" class="title">Video Editing<span class="arrow"></span><br><p class="text">Commercial, Motion Graphics...</p></a></li>'+
+            '<li><img class="icon" src="/img/icons/code.png"> </img><a href="#" class="title">Coding<span class="arrow"></span><br><p class="text">HTML, CSS, JS...</p></a></li>'+
         '</ul>'+
         '</main>'+
     '</section>';
